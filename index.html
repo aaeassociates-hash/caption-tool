@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Caption Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>AI Caption + Hashtag Generator</h1>
+
+    <input id="topic" placeholder="Enter your topic..." />
+
+    <select id="platform">
+      <option>Instagram</option>
+      <option>TikTok</option>
+      <option>LinkedIn</option>
+    </select>
+
+    <select id="tone">
+      <option>Funny</option>
+      <option>Professional</option>
+      <option>Aesthetic</option>
+      <option>Inspirational</option>
+    </select>
+
+    <button onclick="generate()">Generate</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
